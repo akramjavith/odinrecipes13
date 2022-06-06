@@ -1,0 +1,65 @@
+body{
+    background-color: grey;
+    font-size: 20px;
+    margin: 5px ;
+    
+}
+h1{
+    font-style:italic;
+    color:yellowgreen;
+}
+
+
+
+img{
+    height:200px;
+    width:200px;
+    
+}
+p{
+    width: 600px;
+    color: lightblue;
+
+}
+ul{
+    width:600px;
+    color:lightblue;
+    
+}
+ol{
+    width:600px;
+    color: lightblue;
+    
+}
+h1,h2,h3,
+.section{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+.flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    background-color: brown;
+    color:violet;
+}
+  
+.flex1 > div {
+    background-color:black;
+    width: 100px;
+    height:100px;
+    margin: 5px;
+    font-size: 20px;
+}
+h2 {
+    text-align:center;
+}
+.flex {
+    font-size:40px;
+    text-align:center;
+    color:black;
+    font-weight:bold;
+}           
